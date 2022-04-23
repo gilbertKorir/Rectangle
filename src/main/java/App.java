@@ -25,7 +25,8 @@ public class App {
         int intLenght = Integer.parseInt(stringLenght);
         //for width
         System.out.println("Enter the width of your rectangle:");
-        String stringWidth = myConsole.readLine();
+
+        String stringWidth = in.nextLine();
         int intWidth = Integer.parseInt(stringWidth);
         //create an instance of the class rectangle;
 
@@ -33,7 +34,7 @@ public class App {
 
 //         call isSquare() to check if it is also a square
         boolean squareResult = rectangle.isSquare();
-//        System.out.println("Is your rectangle a square, too?" + squareResult + "!");
+        System.out.println("Is your rectangle a square, too?" + squareResult + "!");
 
     }
 }
